@@ -46,7 +46,7 @@ function CalculadoraIMC() {
                 <input
                     type="number"
                     value={altura}
-                    onChange={(e) => setAltura(e.target.value.replace(/[^0-9]/g,))}
+                    onChange={(e) => setAltura(e.target.value.replace(/[^0-9]/g,''))}
                     placeholder="ex: 180"
                 />
             </div>
@@ -55,7 +55,7 @@ function CalculadoraIMC() {
                 <input
                     type="number"
                     value={peso}
-                    onChange={(e) => setPeso(e.target.value.replace(/[^0-9]/g,))}
+                    onChange={(e) => setPeso(e.target.value.replace(/[^0-9]/g,''))}
                     placeholder="ex: 80.3"
                 />
             </div>

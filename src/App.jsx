@@ -1,5 +1,5 @@
 
-import CalculadoraIMC from "./CaculadoraIMC.jsx"; // Corrija o nome do arquivo
+import CalculadoraIMC from "./CalculadoraIMC.jsx"; // Corrija o nome do arquivo
 import './App.css';
 
 function App() {
